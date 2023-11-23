@@ -1,0 +1,39 @@
+body{
+
+
+    background-color:black;
+    color: white;
+}
+
+th {
+    border: 2px solid  rgb(34, 224, 17);;
+    color:rgb(0, 255, 229);
+}
+td {
+     border: 2px solid  rgb(34, 224, 17);;
+
+    background-color:palegoldenrod;
+    color:black;    
+    
+}
+@keyframes fadeout {
+
+ from {opacity:1;} to {opacity:0;}
+
+}
+h2 { animation: fadeout 15s infinite;}
+
+@keyframes fadeout1 {
+
+    0% {opacity:0;} 35% {opacity:1;}
+   
+   }  
+   @keyframes fadeout2 {
+
+     0% {opacity:0;} 15% {opacity:0;}  55% {opacity:1;}
+   
+   }  
+   
+   h3 { animation: fadeout1 2s ease;}
+   table {  animation: fadeout2 2s ease; }
+

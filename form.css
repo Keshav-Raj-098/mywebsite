@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: rgb(34, 224, 17);
+}
+
+form {  border:2px solid  rgb(34, 224, 17);}
+
+
+
+
+input {
+    background-color: rgb(198, 246, 198);
+}
+
+textarea { 
+    
+    background-color: rgb(198, 246, 198);
+}
+
+select {
+    background-color: rgb(198, 226, 198);
+}
+
+button {
+    background-color: rgb(198, 226, 198);
+}
+@keyframes blink-text {
+
+    0% {opacity:0;}
+    25% {opacity:0.5}
+    
+    50% {opacity:1;} 
+    75% {opacity:0.5;} 
+    100%
+    {opacity:0;}   
+       }
+       
+       
+       h2 { animation: blink-text 3s infinite;}
+
+       

@@ -1,0 +1,55 @@
+body{
+
+
+    background-color:skyblue;
+    color: rgb(17, 17, 17);
+}
+
+th {
+    border: 2px solid black;
+    background-color:palegoldenrod;
+    color:blue
+}
+td {
+     border: 2px solid black;
+
+    background-color:palegoldenrod;
+    color:black;    
+    
+}
+@keyframes fadeout {
+
+    from {opacity:1;} to {opacity:0;}
+   
+   }
+   
+   
+   h8 { animation: fadeout 1s ease;}
+
+
+   @keyframes blink-text {
+
+0% {opacity:0;}
+25% {opacity:0.5}
+
+50% {opacity:1;} 
+75% {opacity:0.5;} 
+100%
+{opacity:0;}   
+   }
+   
+   
+   h1 { animation: blink-text 5s infinite;}
+
+   
+h1 {background:rgb(214, 214, 154); border: 2px orange;}
+
+img {  border: 2px solid black;
+    background-color:white;
+      
+}
+    
+hr { color:black ;}
+     
+
+
